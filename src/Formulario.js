@@ -9,10 +9,6 @@ const mes = f.getMonth() + 1;
 const año = f.getFullYear();
 const fecha = dia + "/" + mes + "/" + año;
 
-const user = {
-  Nombre: "this.state.Nombre",
-};
-
 class formulario extends React.Component {
   constructor(props) {
     super(props);
@@ -84,7 +80,7 @@ class formulario extends React.Component {
         <body>
           <header className="App-header">
             <img
-              src="https://lh3.googleusercontent.com/proxy/AOjuTusrXTWaXU5G-TcMk0GHmx_b_MhOEdP_NJg0vpjsJ36UphiYNbuXdsCKJLFR8aAvRCWxHINN6UWqKHKteICGxezHGxXERC8Z6VwEThaRPb5Wng"
+              src="https://lh3.googleusercontent.com/proxy/D5LX74CSwix0S7YO2WkPTfTi_33M7ojTnt2yvwPTwE1gRHFqpYB7Gm2Df6JTnMLU_9yisq9rLutJfA1coEBjHEap6w2iBzp7zMl0LqBgAl3bX8kVLw"
               className="App-logo"
               alt="logo"
             />
