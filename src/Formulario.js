@@ -79,21 +79,27 @@ class formulario extends React.Component {
         ></link>
         <body>
           <header className="App-header">
+            <div className="contenedor">
             <img
-              src="https://lh3.googleusercontent.com/proxy/D5LX74CSwix0S7YO2WkPTfTi_33M7ojTnt2yvwPTwE1gRHFqpYB7Gm2Df6JTnMLU_9yisq9rLutJfA1coEBjHEap6w2iBzp7zMl0LqBgAl3bX8kVLw"
+              src="http://obvio.com.co/contenidos/uploads/2017/03/logo-obvio.png"
               className="App-logo"
               alt="logo"
             />
-            <center>
+           
+           <div className="divheader">
               <h1>¡Bienvenido!</h1>
-            </center>
+              </div>
+           
+              </div>
+        
           </header>
 
           <center>
             <div className="Form">
+              <div className="Forms">
               <form onSubmit={this.handleSubmit}>
                 <div class="form-group">
-                  <label for="TipoID">Tipo de Identificación</label>
+                 
                   <select
                     id="TipoID"
                     class="form-control"
@@ -110,7 +116,7 @@ class formulario extends React.Component {
                 </div>
 
                 <div class="form-group">
-                  <label for="ID"> Número de documento de identidad</label>
+                 
                   <input
                     type="number"
                     class="form-control"
@@ -123,7 +129,7 @@ class formulario extends React.Component {
                 </div>
 
                 <div class="form-group">
-                  <label for="Correo">correo electrónico</label>
+                 
                   <input
                     type="email"
                     class="form-control"
@@ -138,7 +144,7 @@ class formulario extends React.Component {
                 </div>
 
                 <div class="form-group">
-                  <label for="Nombre">Nombres</label>
+                 
                   <input
                     type="text"
                     class="form-control"
@@ -152,7 +158,7 @@ class formulario extends React.Component {
                 </div>
 
                 <div class="form-group">
-                  <label for="Apellidos">Apellidos</label>
+                 
                   <input
                     type="text"
                     class="form-control"
@@ -166,7 +172,7 @@ class formulario extends React.Component {
                 </div>
 
                 <div class="form-group">
-                  <label for="Fecha">Fecha de Ingreso</label>
+                 
                   <input
                     type="text"
                     class="form-control"
@@ -177,10 +183,11 @@ class formulario extends React.Component {
                     disabled
                   ></input>
                 </div>
-                <button type="submit" class="btn btn-primary mb-2">
+                <button type="submit">
                   Enviar
                 </button>
               </form>
+              </div>
             </div>
           </center>
           <script
